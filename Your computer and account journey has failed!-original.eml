@@ -1,0 +1,1678 @@
+Received: from AM0PR10MB2739.EURPRD10.PROD.OUTLOOK.COM (2603:10a6:208:133::27)
+ by PR3PR10MB3850.EURPRD10.PROD.OUTLOOK.COM with HTTPS; Sat, 6 Feb 2021
+ 12:30:42 +0000
+Received: from DB7PR05CA0054.eurprd05.prod.outlook.com (2603:10a6:10:2e::31)
+ by AM0PR10MB2739.EURPRD10.PROD.OUTLOOK.COM (2603:10a6:208:133::27) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3805.16; Sat, 6 Feb
+ 2021 12:30:41 +0000
+Received: from DB5EUR01FT043.eop-EUR01.prod.protection.outlook.com
+ (2603:10a6:10:2e:cafe::9) by DB7PR05CA0054.outlook.office365.com
+ (2603:10a6:10:2e::31) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3825.17 via Frontend
+ Transport; Sat, 6 Feb 2021 12:30:41 +0000
+Received: from siemens-mlr.yesspress.com (85.184.248.100) by
+ DB5EUR01FT043.mail.protection.outlook.com (10.152.5.103) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.3784.11 via Frontend Transport; Sat, 6 Feb 2021 12:30:40 +0000
+Received: from web03.ypsag.yp (10.12.217.10) by siemens-mlr.yesspress.com id h3q5v02jg4g7 for <ana.silva.ext@siemens.com>; Sat, 6 Feb 2021 13:30:40 +0100 (envelope-from <4fv5ltqb7aaloiexol2bfhma7oxqlbb6qaupmb25qm76mg7hcq5q-zrhn3lwi@siemens-mlr2.yesspress.com>)
+From: "gpitcarveoutinfo.energy@siemens.com"
+	<gpitcarveoutinfo.energy@siemens.com>
+To: "Silva, Ana Raquel" <ana.silva.ext@siemens.com>
+Subject: Your computer and account journey has failed!
+Thread-Topic: Your computer and account journey has failed!
+Thread-Index: AQHW/IPiSalRwpR5x0CEiOhBrGptyQ==
+Date: Sat, 6 Feb 2021 12:30:40 +0000
+Message-ID:
+ <4fv5ltqb7aaloiexol2bfhma7oxqlbb6qaupmb25qm76mg7hcq5q@siemens-energy.yesspress.com>
+Reply-To: "gpitcarveoutinfo.energy@siemens.com"
+	<gpitcarveoutinfo.energy@siemens.com>
+Content-Language: pt-PT
+X-MS-Exchange-Organization-AuthSource:
+ DB5EUR01FT043.eop-EUR01.prod.protection.outlook.com
+X-MS-Has-Attach: yes
+X-MS-Exchange-Organization-Network-Message-Id:
+ 1cf87db4-ab65-414d-c57d-08d8ca9b03e0
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+received-spf: Neutral (protection.outlook.com: 85.184.248.100 is neither
+ permitted nor denied by domain of siemens-mlr2.yesspress.com)
+x-ms-exchange-organization-originalclientipaddress: 85.184.248.100
+x-ms-exchange-organization-originalserveripaddress: 10.152.5.103
+x-ms-exchange-organization-submissionquotaskipped: False
+x-mailer: yesspress.com
+authentication-results: spf=neutral (sender IP is 85.184.248.100)
+ smtp.mailfrom=siemens-mlr2.yesspress.com; siemens.com; dkim=pass (signature
+ was verified) header.d=siemens-mlr2.yesspress.com;siemens.com; dmarc=fail
+ action=none header.from=siemens.com;
+x-forefront-antispam-report:
+ CIP:85.184.248.100;CTRY:DE;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SFE;H:siemens-mlr.yesspress.com;PTR:siemens-mlr.yesspress.com;CAT:NONE;SFS:;DIR:INB;
+x-ms-office365-filtering-correlation-id: 1cf87db4-ab65-414d-c57d-08d8ca9b03e0
+x-ms-office365-filtering-ht: Tenant
+x-microsoft-antispam: BCL:0;
+x-ms-traffictypediagnostic: AM0PR10MB2739:
+x-ms-oob-tlc-oobclassifiers: OLM:826;
+x-ms-exchange-crosstenant-network-message-id:
+ 1cf87db4-ab65-414d-c57d-08d8ca9b03e0
+x-ms-exchange-crosstenant-originalarrivaltime: 06 Feb 2021 12:30:40.5769 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: HybridOnPrem
+x-ms-exchange-crosstenant-id: 38ae3bcd-9579-4fd4-adda-b42e1495d55a
+x-ms-exchange-transport-crosstenantheadersstamped: AM0PR10MB2739
+x-ms-exchange-atpmessageproperties: SA|SL
+x-ms-exchange-transport-endtoendlatency: 00:00:01.9786292
+x-ms-exchange-processed-by-bccfoldering: 15.20.3825.027
+x-eopattributedmessage: 0
+x-ms-exchange-crosstenant-authas: Anonymous
+x-ms-exchange-crosstenant-authsource:
+ DB5EUR01FT043.eop-EUR01.prod.protection.outlook.com
+x-originatororg: siemens.onmicrosoft.com
+x-ms-exchange-crosstenant-originalattributedtenantconnectingip:
+ TenantId=38ae3bcd-9579-4fd4-adda-b42e1495d55a;Ip=[85.184.248.100];Helo=[siemens-mlr.yesspress.com]
+dkim-signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=yesspress;
+ d=siemens-mlr2.yesspress.com;
+ h=Message-ID:Date:Subject:To:From:Reply-To:MIME-Version:Content-Type;
+ bh=GEysNOXhgrSlk7LRDomXMtgmlzzz8ubPoe6k1oIIbUM=;
+ b=Iq3a/huZ2U8WS0qC+vzIr93CTxWgcLO/NJv8iMpHKBIp4CGkVHdqiOdJubSMpydxeKzIhPsg0s1B
+   SHMViM4By5dGkK0ojsFzRZNJu81a0Dy/JeOUj/zfR1ZectWQ8uafikP9pNO3a3P1eUjBGC68zn0X
+   L0EBftCh/LhUM4v2myo+j5a2nVtmaeWIOAFUGOYm50nm7v9ahKUyag+hdXWVJRGNre2FGDI8/anM
+   c+vGKEPsLqxPhSYLVIapMKpxCrdqqGWfuDfz3qsdir/4xWkVp4pWAeaHJmHVloFAJSFY65OSwvMF
+   /KjhG71hCP19uBAVL9Tid8uctSDwhaxnLULiWw==
+X-Microsoft-Antispam-Mailbox-Delivery:
+ wl:1;pcwl:1;ucf:0;jmr:0;auth:0;dest:I;ENG:(750128)(520011016)(520004050)(702028)(944506458)(944626604);
+X-Microsoft-Antispam-Message-Info:
+ =?iso-8859-1?Q?apgShhZvTkrc/VvKV3hhyOfCEjdj95WT4dBvhOfnQgGdFrHLf3nfFh5OTj?=
+ =?iso-8859-1?Q?ZL78S4MrqCSJTcOPecSsJyPPCkQfIFeeioOmj8xWhKE62hN8n3DJQ2dGjE?=
+ =?iso-8859-1?Q?mDfj/9hQHfN7dCyTdEF1rVUs7t3aDHDN2EMffUixjo/vmvO38ad9Zb7r1O?=
+ =?iso-8859-1?Q?5cJVUGpxBBWoz35GtLt3tnEbw2HOlyk5x5ObRh1AJ2zSTIoDpq8AzAOnQ6?=
+ =?iso-8859-1?Q?oddiwdobZA5q2+PC3TDIKurMCZI6fyXk7aBu1WTHUbUp7Uf+4yWo14ueAe?=
+ =?iso-8859-1?Q?r0wf/AwaQzEzW+D4gzUivbG3LDfx26kpUf/8AKOWJ0okvW0t+JysQbTn3e?=
+ =?iso-8859-1?Q?X9kIrQqzG/9Jke1WaAe+1fZa2LW4zcA2YKQppQgIBsmbwsFA7vL4spUkKX?=
+ =?iso-8859-1?Q?EIAUNNpBC4l+9p7XtoPqj5r0+DUH0ToArrWft07mKamDcxxhFBrxXvohJz?=
+ =?iso-8859-1?Q?qsqFTOmMMnNt0V5bYmKneGWyAGGYNIrM1qiI0Jva+7NGJlh1Aq2CDzd2VI?=
+ =?iso-8859-1?Q?h4wBKqIaqcv+72yMqUqHh15l3r1ONOfgmr/fAwfM4kJaWBgqeSAV5osSbM?=
+ =?iso-8859-1?Q?2gA7B+XUKHGC6lSubbZENPmOId0hvwwtZ6KUvcgmyclNE+Chahz4pT3NXD?=
+ =?iso-8859-1?Q?9hZ2uck4fEntYcCQ0j9d9640Rg3tD4efZb5G/9YqPDRaa+KeUKs3NtoXCv?=
+ =?iso-8859-1?Q?TF40n42rDO5yS4EoC9Avqbwc2+htRS0rpeNhsT8PwGZ0TTZDb2Vv/kQtL1?=
+ =?iso-8859-1?Q?9aKHiIAQjwk9+9/3Y9hx7aGdfbzpinM+GkSHg26codrqu7d6vpfdcfwfxg?=
+ =?iso-8859-1?Q?uoK8v94jgY+BRMTezR6YYAPc/geLqB92yWjxgCl92PE5BxnS+qnpziDonC?=
+ =?iso-8859-1?Q?IAKCxRo/xat1u2m9/yxS7wqwXF1Da7ZpKzsJezuq+6CfnakMOMFOV4zUgA?=
+ =?iso-8859-1?Q?65LuSd5U3UGa7+aQt6oKLp31HUehL5DkGbMjI9+VRq+s/zXVDa+qtAJyJo?=
+ =?iso-8859-1?Q?3Quew2OmnX+wdm+/DiY/wlujfZxYq3NbB3jApi/TFD5Vd09DkINujYZJK2?=
+ =?iso-8859-1?Q?fUPmWkNNvjpju4qLvnrfGVGE6trCXRBJY2wxH9I7ohKmVKh+REde7i9JJb?=
+ =?iso-8859-1?Q?FQDV+4SNyIkuMS0suLAi2sG6erxWvsfcdAAbBNGx6hDVW6UBPg6Hz2Lany?=
+ =?iso-8859-1?Q?TlgZbGkz7lJv/jgsovJH63eJefjUilw9pK57JhUJrvfzcRQswWOBeIO8u0?=
+ =?iso-8859-1?Q?isSqz95LITRBr/6gn7+9LCRv48y3+jUeAcxQMDV9r3fTg2Ejb3llvdUJHl?=
+ =?iso-8859-1?Q?UUt7QPOwnClwFTjhlt8sKgQX+AKK6F/uqKePVrz4IqbNiKjFbriPWlUx8P?=
+ =?iso-8859-1?Q?DYieJvYGfLkH1mTIee17jbiIzKcZJ4+Ea8s9ZzYN6thZzPX+ExOGYUPyRe?=
+ =?iso-8859-1?Q?ZKNOvF2U3X2CGCAbXu5dY0VSAhHI9tkBOgwHa+qarsQ9YjqfMbST/b44XO?=
+ =?iso-8859-1?Q?dEK2zWX6weqq3HQN9Yi1xwLsb+Jjvx/a7ILXQQRRBav7jvImaTYRfeqxRU?=
+ =?iso-8859-1?Q?hajfqxHsETtgdNvbn5xOx6pkXZsge+URzjuElj08a3759dm8hoSV369Whr?=
+ =?iso-8859-1?Q?wvICoYhD/1Ho2qVX9INC/wjxUXvGnC+LcHKpCp3oTemR5lfdY3hITMQA?=
+ =?iso-8859-1?Q?=3D=3D?=
+Content-Type: multipart/related;
+	boundary="_007_4fv5ltqb7aaloiexol2bfhma7oxqlbb6qaupmb25qm76mg7hcq5qsie_";
+	type="multipart/alternative"
+MIME-Version: 1.0
+
+--_007_4fv5ltqb7aaloiexol2bfhma7oxqlbb6qaupmb25qm76mg7hcq5qsie_
+Content-Type: multipart/alternative;
+	boundary="_000_4fv5ltqb7aaloiexol2bfhma7oxqlbb6qaupmb25qm76mg7hcq5qsie_"
+
+--_000_4fv5ltqb7aaloiexol2bfhma7oxqlbb6qaupmb25qm76mg7hcq5qsie_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ <https://redirect-yp.siemens-energy.com/redir/7aywscfsu3tb5gbamhfpdqpqsv4z=
+bcxkq74bpp27yer32esft5ia/PRbrtNOp9GWJskH_AfAhoII6ZlP2RgoSHfnhqgQCl6I>
+
+
+
+
+
+
+
+
+
+February 2021
+ <https://redirect-yp.siemens-energy.com/redir/7aywscfsu3tb5gbamhfpdqpqsv4z=
+bcxkq74bpp27yer32esft5ia/lIDxuomw2wIDhkY4O8GwawuhmCO5sw2zkSaOd2B-1m8>
+
+Your computer migration from Siemens to Siemens Energy was not successful.
+
+
+
+
+- Bitte scrollen Sie nach unten f=FCr die Deutsche version -
+
+
+
+
+Dear Colleague,
+Your computer and account migration to @siemens-energy.com was not able to =
+finish it's journey. But don't worry, you will be automatically scheduled t=
+o migrate again over the next weeks.
+
+You will receive all the e-mail communications again to do the steps for yo=
+ur computer and account migration.
+
+
+
+
+You can find all information, daily updated regarding client & user migrati=
+on here. <https://redirect-yp.siemens-energy.com/redir/7aywscfsu3tb5gbamhfp=
+dqpqsv4zbcxkq74bpp27yer32esft5ia/3gThuMaqm9291GWlnrRzM4-s1jYahTntdU0lBwby7d=
+8>
+
+
+
+
+
+You can see your IT migrations journeys status via mission control website =
+here<https://redirect-yp.siemens-energy.com/redir/7aywscfsu3tb5gbamhfpdqpqs=
+v4zbcxkq74bpp27yer32esft5ia/sj8uWxN11DuTHFkj8smxmpR5ShzKxy_9cwKgcjikk90>, i=
+f you need guidance how to travel in it, see this quick guide<https://redir=
+ect-yp.siemens-energy.com/redir/7aywscfsu3tb5gbamhfpdqpqsv4zbcxkq74bpp27yer=
+32esft5ia/R70wE1uvzpAwy7RpuFzQK753IE-e1qnHzCHdr9li4U8>.
+
+
+
+
+
+
+If you need further support, please call:
+- Standard support process via +49 30 520 009 499
+- Local servicedesk via phone or https://myit.siemens.com<https://redirect-=
+yp.siemens-energy.com/redir/7aywscfsu3tb5gbamhfpdqpqsv4zbcxkq74bpp27yer32es=
+ft5ia/UCmhB_ss2kWyHMB5z8D_ByE0HfaSvTuky8wtDFtr0oc>
+
+
+
+
+
+<https://redirect-yp.siemens-energy.com/redir/7aywscfsu3tb5gbamhfpdqpqsv4zb=
+cxkq74bpp27yer32esft5ia/p8UxMNt8uUvJ0FkPm0P8SnCLWzCBK4cOtcRZD_PKr4U>
+
+<https://redirect-yp.siemens-energy.com/redir/7aywscfsu3tb5gbamhfpdqpqsv4zb=
+cxkq74bpp27yer32esft5ia/AM794uexd2e_o35Wy96mrW-LWoKVc5Z7YoJK9Naqzs0>
+My New IT at SE | Wikipage
+Find the latest and fully updated information regarding IT changes from Sie=
+mens to Siemens Energy.
+<https://redirect-yp.siemens-energy.com/redir/7aywscfsu3tb5gbamhfpdqpqsv4zb=
+cxkq74bpp27yer32esft5ia/C6zAEDVlK3YIroQzJcvXlANOsjP_A-Ot20obHyY5wvc>
+<https://redirect-yp.siemens-energy.com/redir/7aywscfsu3tb5gbamhfpdqpqsv4zb=
+cxkq74bpp27yer32esft5ia/n3CVXpZpff-0w3EXfwNs0nikwRfMN9GrL8OAiN1MLV8>
+
+<https://redirect-yp.siemens-energy.com/redir/7aywscfsu3tb5gbamhfpdqpqsv4zb=
+cxkq74bpp27yer32esft5ia/6LYoXKC2zC2Euo7B9jj9FJ5VNN1JmMn_AaSuatyj3pk>
+My New IT at SE | Yammer Group
+Post your questions regarding your new IT at Siemens Energy here.
+
+<https://redirect-yp.siemens-energy.com/redir/7aywscfsu3tb5gbamhfpdqpqsv4zb=
+cxkq74bpp27yer32esft5ia/6O06iT0Z8xEQondijlDLfqB3NNlj3oP2komPv5fndh0>
+
+
+
+
+We thank you in advance for your cooperation.
+
+Warmest regards,
+Your Siemens Energy IT Team
+
+
+
+
+siemens-energy.com<https://redirect-yp.siemens-energy.com/redir/7aywscfsu3t=
+b5gbamhfpdqpqsv4zbcxkq74bpp27yer32esft5ia/5aHU_D6Xn6AijYIl59T-qG6lgNoQUTMOy=
+WWduxDxuIc>
+Restricted =A9 Siemens Energy, 2021
+This mail was sent to ana.silva.ext@siemens.com<mailto:ana.silva.ext@siemen=
+s.com> (4fv5ltqb7aaloiexol2bfhma7oxqlbb6qaupmb25qm76mg7hcq5q).
+
+
+
+
+
+--_000_4fv5ltqb7aaloiexol2bfhma7oxqlbb6qaupmb25qm76mg7hcq5qsie_
+Content-Type: text/html; charset="iso-8859-1"
+Content-ID: <A1A2A802059AAB4B95F4F05E60D3E299@EURPRD10.PROD.OUTLOOK.COM>
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns=3D"http://www.w3.=
+org/1999/xhtml" xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:sc=
+hemas-microsoft-com:office:office"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<title></title>
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1"=
+>
+<style type=3D"text/css">
+body {height:100% !important; width:100% !important; margin:0; padding:0; m=
+so-line-height-rule: exactly !important; background:#ffffff}  =20
+table, td { border-collapse:collapse !important; mso-table-lspace:0pt !impo=
+rtant; mso-table-rspace:0pt !important;} =20
+p, span {margin-top:0; margin-right:0; margin-left:0; margin-bottom:0; padd=
+ing:0; font-family: Arial, Helvetica, sans-serif}
+td {margin: 0; padding:0; font-size:0; line-height: 0;}
+img {-ms-interpolation-mode:bicubic; border:0; line-height:100%; outline:no=
+ne; text-decoration:none;} =20
+body, table, td, p, a, li, div, span {mso-line-height-rule:exactly !importa=
+nt; -ms-text-size-adjust:100% !important; -webkit-text-size-adjust:100% !im=
+portant;}
+.hdpi {width: 100% !important; height: auto;}
+.hdpi192 {width: 192px !important; height: auto;}
+
+
+.max160, .max210, .max220, .max240, .max255, .max260, .max300, .max450, .ma=
+x490, .max500, .max509, .max530 {
+	word-wrap: break-word !important;
+	word-break: break-word !important;=09
+	overflow-wrap: break-word !important;
+	-webkit-line-break: after-white-space !important;
+	display: block !important;
+}
+
+.max160 {max-width:160px !important;}
+.max210 {max-width:210px !important;}
+.max220 {max-width:220px !important;}
+.max240 {max-width:240px !important;}
+.max255 {max-width:255px !important;}
+.max260 {max-width:260px !important;}
+.max300 {max-width:300px !important;}
+.max450 {max-width:450px !important;}
+.max490 {max-width:490px !important;}
+.max500 {max-width:500px !important;}
+.max509 {max-width:509px !important;}
+.max530 {max-width:530px !important;}
+
+.fverlauf {
+    background: #1b1734;
+=09
+	/*background: -prefix-radial-gradient(circle at 95% 200px, #4d217a 0%, #1b=
+1734 20%);
+    background: -moz-radial-gradient(circle at 95% 200px, #4d217a 0%, #1b17=
+34 20%);
+    background: -webkit-radial-gradient(circle at 95% 200px, #4d217a 0%, #1=
+b1734 20%);
+	background: radial-gradient(circle at 95% 200px, #4d217a 0%, #1b1734 20%);=
+*/
+}
+
+.fverlaufimg {
+    /*background-image: url("");
+	background-position-x: right;
+    background-repeat: no-repeat;*/
+}
+
+a:link {color:#8A00E5; text-decoration: underline; }
+a:visited {color:#8A00E5; text-decoration: underline; }
+a:active {color:#8A00E5; text-decoration: underline; }
+a:hover {color:#8A00E5; text-decoration: underline; }
+	=09
+#sprachauswahl a:link {color:#62707B !important; text-decoration:underline}
+#sprachauswahl a:visited {color:#62707B !important; text-decoration:underli=
+ne}
+#sprachauswahl a:active {color:#62707B !important; text-decoration:underlin=
+e}
+#sprachauswahl a:hover {color:#62707B !important; text-decoration:underline=
+}
+	=09
+#footer1, #footer1 td {color:#ffffff !important; text-decoration: none; }
+.footerlc a {color:#ffffff !important; text-decoration: none !important; }
+.footerlc a:link {color:#ffffff !important; text-decoration: none !importan=
+t; }
+.footerlc a:visited {color:#ffffff !important; text-decoration: none !impor=
+tant; }
+.footerlc a:active {color:#ffffff !important; text-decoration: none !import=
+ant; }
+.footerlc a:hover {color:#ffffff !important; text-decoration: none !importa=
+nt; }
+
+#fverlauf a {color:#ffffff !important; text-decoration: none; }
+#fverlauf a:link {color:#ffffff !important; text-decoration: none; }
+#fverlauf a:visited {color:#ffffff !important; text-decoration: none; }
+#fverlauf a:active {color:#ffffff !important; text-decoration: none; }
+#fverlauf a:hover {color:#ffffff !important; text-decoration: none; }
+
+a[x-apple-data-detectors] {
+    color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+}
+
+#banner, #banner a, #banner td {color:#ffffff; text-decoration: none; }
+#banner a {color:#ffffff !important; text-decoration:none}
+#banner a:link {color:#ffffff !important; text-decoration:none}
+#banner a:visited {color:#ffffff !important; text-decoration:none}
+#banner a:active {color:#ffffff !important; text-decoration:none}
+#banner a:hover {color:#ffffff !important; text-decoration:none}
+
+.pbb {page-break-before: always}	=09
+
+@media only screen and (max-width: 600px)=20
+{
+	.float100img {width: 100% !important; height: auto;}
+	.float100, .float100grey, .float100mobile, .float100mobile2 {padding-left:=
+0px !important; padding-right: 0px !important; width: 100% !important; tabl=
+e-layout: fixed;}
+	.floatcolumn {float: left; padding-left:0px !important; padding-right: 0px=
+ !important; width: 75% !important; table-layout: fixed;}
+=09
+	.float100 tr, .float100grey tr {height:auto !important;}
+	.float100grey {background: #f0f0f0 !important}
+	.float100td {padding-left:30px !important; padding-right: 30px !important}
+	.float100tdvml {padding-left:0px !important; padding-right: 30px !importan=
+t}
+	.float100td25 {padding-left:25px !important; padding-right: 25px !importan=
+t; padding-top: 24px !important}
+	.float100td20 {padding-left:20px !important; padding-right: 20px !importan=
+t; padding-top: 20px !important; padding-bottom: 20px !important; backgroun=
+d: #f0f0f0 !important}
+	.float100tdMarginColumnModuleHedaline {padding-left:30px !important; paddi=
+ng-right: 30px !important; padding-bottom: 19px !important}
+	.languajes{display: none !important;}
+	.nopadding {padding:0px !important;}
+	.teaserhormobile {padding-left:25px !important; padding-right: 25px !impor=
+tant; padding-bottom: 14px !important; background:#ffffff; }
+	.fverlaufinhalt {
+		 padding-left:0px !important; padding-right: 30px !important
+	}
+	/*
+	.header {
+		padding-top: 0px !important;
+		padding-right: 30px !important;
+		padding-bottom:17px !important;=20
+		padding-left:28px !important;=20
+	}
+=09
+	.logo {
+		padding-bottom:0px !important; padding-top: 0px !important
+	}
+=09
+	.logo table {
+		height: 74px !important;
+		width: 140px !important;	=09
+	}
+=09
+	.logo table td {position:relative}
+=09
+	.slogo{
+    clip: rect(0px 140px 74px auto);
+    width: 140px;
+    height: 74px;
+    overflow: hidden;
+ }
+	.hlogo{
+    clip: rect(0px 140px 74px auto);
+    width: 140px;
+    height: 74px;
+    overflow: hidden;
+ }
+=09
+	.logo {
+		padding: 0px !important;
+	}
+	*/
+	.lang {
+		padding-bottom:0px !important; padding-top: 0px !important
+	}
+=09
+	.lang a {
+		padding-top: 10px !important;
+		display: inline-block
+	}
+=09
+	.langtbl {
+		width: 100% !important
+	}
+=09
+	.max160, .max210, .max220, .max240, .max255, .max260, .max300, .max450, .m=
+ax490, .max500, .max509, .max530 {
+	 	max-width:100% !important;
+	}
+=09
+	 #hidemobile {
+	 	display: none;
+	 }
+
+}
+
+sup, sub {
+	line-height: 0;
+	font-size: 70%;
+}
+</style><!--[if gte mso 9]>
+<style>
+sup {font-size: 120% !important; vertical-align:1px; line-height: 9px;}
+sub {font-size: 120% !important; line-height: 9px;}
+</style>
+<![endif]--><!--[if gte mso 9]>
+<xml>
+<o:OfficeDocumentSettings>
+<o:AllowPNG/>
+<o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml>
+<![endif]-->
+</head>
+<body style=3D"padding:0; margin:0; font-size: 12px; line-height: 16px; fon=
+t-family: Arial, Helvetica, sans-serif !important; background:#f8f8f8" bgco=
+lor=3D"#f8f8f8" text=3D"#000000" marginheight=3D"0" marginwidth=3D"0" leftm=
+argin=3D"0" topmargin=3D"0">
+<div style=3D"display:none;font-size:1px;color:#f8f8f8;line-height:1px;max-=
+height:0px;max-width:0px;opacity:0;overflow:hidden;">
+</div>
+<a name=3D"top" style=3D"text-decoration: none; margin: 0px; padding: 0px;"=
+></a><!--[if gte mso 15]>
+<div>
+<p style=3D"margin:0; font-size:0; line-height:0;"><o:p xmlns:o=3D"urn:sche=
+mas-microsoft-com:office:office">&nbsp;</o:p></p>
+<table class=3D"float100" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%=
+" style=3D"width:100%; background:#f8f8f8; background-color:#f8f8f8" bgcolo=
+r=3D"#f8f8f8"><tr>
+	<td class=3D"float100" align=3D"center">
+<table class=3D"float100" cellspacing=3D"0" cellpadding=3D"0" width=3D"600"=
+ style=3D"width:600px; background:#ffffff" bgcolor=3D"#ffffff"><tr class=3D=
+"pbb">
+	<td class=3D"float100">
+=09
+<![endif]-->
+<div>
+<p style=3D"margin:0; font-size:0; line-height:0;"><o:p xmlns:o=3D"urn:sche=
+mas-microsoft-com:office:office">&nbsp;</o:p></p>
+<table class=3D"float100" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%=
+" style=3D"width:100%; background:#f8f8f8; background-color:#f8f8f8" bgcolo=
+r=3D"#f8f8f8">
+<tbody>
+<tr>
+<td class=3D"float100" align=3D"center">
+<table class=3D"float100" cellspacing=3D"0" cellpadding=3D"0" width=3D"600"=
+ style=3D"width:600px; background:#1b1734" bgcolor=3D"#1b1734">
+<tbody>
+<tr class=3D"pbb">
+<td class=3D"float100"><img class=3D"float100" alt=3D"" width=3D"600" heigh=
+t=3D"1" src=3D"https://redirect-yp.siemens-energy.com/redir/7aywscfsu3tb5gb=
+amhfpdqpqsv4zbcxkq74bpp27yer32esft5ia/PRbrtNOp9GWJskH_AfAhoII6ZlP2RgoSHfnhq=
+gQCl6I"></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"logoblock">
+<p style=3D"margin:0; font-size:0; line-height:0;"><o:p xmlns:o=3D"urn:sche=
+mas-microsoft-com:office:office">&nbsp;</o:p></p>
+<table class=3D"float100" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%=
+" style=3D"width:100%; background-color:#f8f8f8; background:#f8f8f8" bgcolo=
+r=3D"#f8f8f8">
+<tbody>
+<tr>
+<td class=3D"float100" style=3D"padding-left: 0px; padding-right: 0px; padd=
+ing-bottom: 0px; padding-top: 0px;" align=3D"center">
+<table class=3D"float100" cellspacing=3D"0" cellpadding=3D"0" width=3D"600"=
+ style=3D"width:600px; background-color:#1b1734; background:#1b1734" bgcolo=
+r=3D"#1b1734">
+<tbody>
+<tr>
+<td class=3D"float100"><img class=3D"float100" alt=3D"" width=3D"600" heigh=
+t=3D"1" src=3D"cid:FPEYOFXZXVPUNG4C7EK4GLCZVI.93913"></td>
+</tr>
+<tr>
+<td class=3D"header" valign=3D"bottom" style=3D"padding-left: 30px; padding=
+-right: 40px; padding-bottom: 3px; padding-top: 6px;" align=3D"left">
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"225" style=3D"width:140=
+px">
+<tbody>
+<tr>
+<td class=3D"logo" style=3D"padding-bottom: 5px; padding-top: 0px">
+<table style=3D"width: 140px" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td>
+<div class=3D"slogo"><img alt=3D"" src=3D"cid:QMXD6T3L57HENADAX6O6WAXH3A.93=
+914" width=3D"140" class=3D"hdpi"></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"headerblock">
+<p style=3D"margin:0; font-size:0; line-height:0;"><o:p xmlns:o=3D"urn:sche=
+mas-microsoft-com:office:office">&nbsp;</o:p></p>
+<table class=3D"float100" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%=
+" style=3D"width:100%; background-color:#f8f8f8; background:#f8f8f8" bgcolo=
+r=3D"#f8f8f8">
+<tbody>
+<tr>
+<td class=3D"float100" style=3D"padding-left: 0px; padding-right: 0px; padd=
+ing-bottom: 0px; padding-top: 0px;" align=3D"center">
+<table class=3D"float100" cellspacing=3D"0" cellpadding=3D"0" width=3D"600"=
+ style=3D"width:600px; background-color:#ffffff; background:#ffffff" bgcolo=
+r=3D"#ffffff">
+<tbody>
+<tr class=3D"pbb">
+<td class=3D"float100"><img class=3D"float100" alt=3D"" width=3D"600" heigh=
+t=3D"1" src=3D"cid:FPEYOFXZXVPUNG4C7EK4GLCZVI.93913"></td>
+</tr>
+<tr>
+<td class=3D"float100td" style=3D"padding-left: 30px; padding-right: 40px; =
+padding-bottom: 12px; padding-top: 11px; background-color:#ffffff; backgrou=
+nd:#ffffff" bgcolor=3D"#ffffff" align=3D"left">
+<table class=3D"float100" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%=
+" style=3D"width:100%">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding-bottom: 0px; padding-top: 0px">
+<table style=3D"width: 100%;" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"font-size: 14px; line-height: 20px; font-family: Arial, Helvet=
+ica, sans-serif !important;">
+<span style=3D"font-family: Microsoft JhengHei"><span class=3D"max530" styl=
+e=3D"font-size: 14px; line-height: 20px; color: #1b1534; font-family:  Aria=
+l, Helvetica, sans-serif !important; mso-line-height-rule: exactly">Februar=
+y 2021
+</span></span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"float100" style=3D"padding-left: 0px; padding-right: 0px; padd=
+ing-bottom: 0px; padding-top: 0px;">
+<table class=3D"float100" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%=
+" style=3D"width:100%">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding-bottom: 0px; padding-top: 0px">
+<table style=3D"width: 100%;" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td><img src=3D"https://redirect-yp.siemens-energy.com/redir/7aywscfsu3tb5g=
+bamhfpdqpqsv4zbcxkq74bpp27yer32esft5ia/lIDxuomw2wIDhkY4O8GwawuhmCO5sw2zkSaO=
+d2B-1m8" width=3D"600" class=3D"hdpi"></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"float100" style=3D"padding-left: 0px; padding-right: 0px; padd=
+ing-bottom: 0px; padding-top: 0px;">
+<table class=3D"float100" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%=
+" style=3D"width:100%; background-color:#1b1734; background:#1b1734" bgcolo=
+r=3D"#1b1734">
+<tbody>
+<tr>
+<td class=3D"float100td" style=3D"padding-left: 30px; padding-right: 40px; =
+padding-bottom: 0px; padding-top: 0px" align=3D"left">
+<table class=3D"float100" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%=
+" style=3D"width:100%">
+<tbody>
+<tr>
+<td style=3D"padding-left: 0px; padding-right: 0px; padding-bottom: 28px; p=
+adding-top: 0px">
+<table class=3D"float100" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%=
+" style=3D"width:100%">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding-left: 0px; padding-right: 0px; padding-=
+bottom: 9px; padding-top: 22px">
+<table style=3D"width: 100%;" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"font-size: 32px; line-height: 38px; font-family: Arial, Helvet=
+ica, sans-serif !important">
+<span style=3D"font-family: Microsoft JhengHei"><span class=3D"max530" styl=
+e=3D"font-size: 32px; line-height:38px; mso-text-raise: 3px;  color: #fffff=
+f; font-family: Arial, Helvetica, sans-serif"><b></b></span></span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding-left: 0px; padding-right: 0px; padding-=
+bottom: 9px; padding-top: 0px">
+<table style=3D"width: 100%;" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"font-size: 18px; line-height: 26px; font-family: Arial, Helvet=
+ica, sans-serif !important;">
+<span style=3D"font-family: Microsoft JhengHei"><span class=3D"max530" styl=
+e=3D"font-size: 18px; line-height: 26px; mso-text-raise: 3px; color: #fffff=
+f; font-family:  Arial, Helvetica, sans-serif !important"><b>Your computer =
+migration from Siemens to Siemens Energy
+ was not successful.</b> </span></span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"contentblock"><!-- TextmodulTextNoSpace -->
+<p style=3D"margin:0; font-size:0; line-height:0;"><o:p xmlns:o=3D"urn:sche=
+mas-microsoft-com:office:office">&nbsp;</o:p></p>
+<table class=3D"float100" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%=
+" style=3D"width:100%; background-color:#f8f8f8; background:#f8f8f8" bgcolo=
+r=3D"#f8f8f8">
+<tbody>
+<tr>
+<td class=3D"float100" style=3D"padding-left: 0px; padding-right: 0px; padd=
+ing-bottom: 0px; padding-top: 0px;" align=3D"center">
+<table class=3D"float100" cellspacing=3D"0" cellpadding=3D"0" width=3D"600"=
+ style=3D"width:600px; background-color:#ffffff; background:#ffffff" bgcolo=
+r=3D"#ffffff">
+<tbody>
+<tr class=3D"pbb">
+<td class=3D"float100"><img class=3D"float100" alt=3D"" width=3D"600" heigh=
+t=3D"1" src=3D"cid:FPEYOFXZXVPUNG4C7EK4GLCZVI.93913"></td>
+</tr>
+<tr>
+<td class=3D"float100td" style=3D"padding-left: 30px; padding-right: 40px; =
+padding-bottom: 4px; padding-top: 4px;" align=3D"left">
+<table class=3D"float100" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%=
+" style=3D"width:100%">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding-bottom: 0px; padding-top: 0px">
+<table style=3D"width: 100%;" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"font-size: 14px; line-height: 20px; font-family: Arial, Helvet=
+ica, sans-serif !important;">
+<span style=3D"font-family: Microsoft JhengHei"><span class=3D"max530" styl=
+e=3D"font-size: 14px; line-height: 20px; color: #1b1734; font-family:  Aria=
+l, Helvetica, sans-serif !important; mso-line-height-rule: exactly"><i>- Bi=
+tte scrollen Sie nach unten f=FCr die Deutsche
+ version - </i></span></span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"contentblock"><!-- Textmodul -->
+<p style=3D"margin:0; font-size:0; line-height:0;"><o:p xmlns:o=3D"urn:sche=
+mas-microsoft-com:office:office">&nbsp;</o:p></p>
+<table class=3D"float100" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%=
+" style=3D"width:100%; background-color:#f8f8f8; background:#f8f8f8" bgcolo=
+r=3D"#f8f8f8">
+<tbody>
+<tr>
+<td class=3D"float100" style=3D"padding-left: 0px; padding-right: 0px; padd=
+ing-bottom: 0px; padding-top: 0px;" align=3D"center">
+<a></a>
+<table class=3D"float100" cellspacing=3D"0" cellpadding=3D"0" width=3D"600"=
+ style=3D"width:600px; background-color:#ffffff; background:#ffffff" bgcolo=
+r=3D"#ffffff">
+<tbody>
+<tr class=3D"pbb">
+<td class=3D"float100"><img class=3D"float100" alt=3D"" width=3D"600" heigh=
+t=3D"1" src=3D"cid:FPEYOFXZXVPUNG4C7EK4GLCZVI.93913"></td>
+</tr>
+<tr>
+<td class=3D"float100td" style=3D"padding-left: 30px; padding-right: 40px; =
+padding-bottom: 1px; padding-top: 24px;" align=3D"left">
+<table class=3D"float100" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%=
+" style=3D"width:100%">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding-bottom: 19px; padding-top: 0px">
+<table style=3D"width: 100%;" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"font-size: 24px; line-height: 28px; font-family: Arial, Helvet=
+ica, sans-serif !important;">
+<span style=3D"font-family: Microsoft JhengHei"><span class=3D"max530" styl=
+e=3D"font-size: 24px; line-height: 28px; color: #1b1534; font-family: Arial=
+, Helvetica, sans-serif; mso-line-height-rule: exactly">Dear Colleague,
+</span></span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding-bottom: 19px; padding-top: 0px">
+<table style=3D"width: 100%;" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"font-size: 14px; line-height: 20px; font-family: Arial, Helvet=
+ica, sans-serif !important;">
+<span style=3D"font-family: Microsoft JhengHei"><span class=3D"max530" styl=
+e=3D"font-size: 14px; line-height: 20px; color: #1b1734; font-family:  Aria=
+l, Helvetica, sans-serif !important; mso-line-height-rule: exactly">Your co=
+mputer and account migration to @siemens-energy.com
+ was not able to finish it's journey. But don't worry, you will be automati=
+cally scheduled to migrate again over the next weeks.<br>
+<br>
+You will receive all the e-mail communications again to do the steps for yo=
+ur computer and account migration.
+</span></span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"contentblock"><!-- Listelement  -->
+<p style=3D"margin:0; font-size:0; line-height:0;"><o:p xmlns:o=3D"urn:sche=
+mas-microsoft-com:office:office">&nbsp;</o:p></p>
+<table class=3D"float100" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%=
+" style=3D"width:100%; background-color:#f8f8f8; background:#f8f8f8" bgcolo=
+r=3D"#f8f8f8">
+<tbody>
+<tr>
+<td class=3D"float100" style=3D"padding-left: 0px; padding-right: 0px; padd=
+ing-bottom: 0px; padding-top: 0px;" align=3D"center">
+<table class=3D"float100" cellspacing=3D"0" cellpadding=3D"0" width=3D"600"=
+ style=3D"width:600px; background-color:#ffffff; background:#ffffff" bgcolo=
+r=3D"#ffffff">
+<tbody>
+<tr>
+<td class=3D"float100td" style=3D"padding-left: 30px; padding-right: 40px; =
+padding-bottom: 0px; padding-top: 0px" align=3D"left">
+<div><!-- Listelement -->
+<table class=3D"float100" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%=
+" style=3D"width:100%">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding-bottom: 1px; padding-top: 0px">
+<table width=3D"100%" style=3D"width:100%" cellspacing=3D"0" cellpadding=3D=
+"0">
+<tbody>
+<tr>
+<td width=3D"11" style=3D"padding-top: 0px; padding-right: 0px; padding-bot=
+tom: 0px; padding-left: 0px" nowrap=3D"" valign=3D"top">
+<table style=3D"width: 11px" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td width=3D"11" style=3D"padding-top: 0px; padding-right: 0px; padding-bot=
+tom: 0px; padding-left: 0px" nowrap=3D"" valign=3D"top">
+<img width=3D"11" style=3D"width:11px" hspace=3D"0" vspace=3D"0" border=3D"=
+0" alt=3D"" src=3D"cid:YO5UMEH2TZPEVPZIUNNH4LW3FE.93915">
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td width=3D"100%" style=3D"font-size: 14px; line-height: 20px; font-family=
+: Arial, Helvetica, sans-serif !important; padding-top: 0px; padding-right:=
+ 0px; padding-bottom: 2px; padding-left: 10px">
+<table style=3D"width: 100%" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"font-size: 14px; line-height: 20px; font-family: Arial, Helvet=
+ica, sans-serif !important; padding-top: 2px; padding-right: 0px; padding-b=
+ottom: 2px; padding-left: 1px">
+<span style=3D"font-family: Microsoft JhengHei"><span class=3D"max509" styl=
+e=3D"mso-text-raise: 2px; font-size: 14px; line-height: 20px; color: #1b173=
+4; font-family: Arial, Helvetica, sans-serif !important; mso-line-height-ru=
+le: exactly">You can find all information,
+ daily updated regarding client &amp; user migration <a href=3D"https://red=
+irect-yp.siemens-energy.com/redir/7aywscfsu3tb5gbamhfpdqpqsv4zbcxkq74bpp27y=
+er32esft5ia/3gThuMaqm9291GWlnrRzM4-s1jYahTntdU0lBwby7d8" target=3D"_blank">
+here. </a></span></span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"float100"><img class=3D"float100" alt=3D"" width=3D"600" heigh=
+t=3D"1" src=3D"cid:FPEYOFXZXVPUNG4C7EK4GLCZVI.93913"></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"contentblock"><!-- Listelement  -->
+<p style=3D"margin:0; font-size:0; line-height:0;"><o:p xmlns:o=3D"urn:sche=
+mas-microsoft-com:office:office">&nbsp;</o:p></p>
+<table class=3D"float100" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%=
+" style=3D"width:100%; background-color:#f8f8f8; background:#f8f8f8" bgcolo=
+r=3D"#f8f8f8">
+<tbody>
+<tr>
+<td class=3D"float100" style=3D"padding-left: 0px; padding-right: 0px; padd=
+ing-bottom: 0px; padding-top: 0px;" align=3D"center">
+<table class=3D"float100" cellspacing=3D"0" cellpadding=3D"0" width=3D"600"=
+ style=3D"width:600px; background-color:#ffffff; background:#ffffff" bgcolo=
+r=3D"#ffffff">
+<tbody>
+<tr>
+<td class=3D"float100td" style=3D"padding-left: 30px; padding-right: 40px; =
+padding-bottom: 0px; padding-top: 0px" align=3D"left">
+<div><!-- Listelement -->
+<table class=3D"float100" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%=
+" style=3D"width:100%">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding-bottom: 1px; padding-top: 0px">
+<table width=3D"100%" style=3D"width:100%" cellspacing=3D"0" cellpadding=3D=
+"0">
+<tbody>
+<tr>
+<td width=3D"11" style=3D"padding-top: 0px; padding-right: 0px; padding-bot=
+tom: 0px; padding-left: 0px" nowrap=3D"" valign=3D"top">
+<table style=3D"width: 11px" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td width=3D"11" style=3D"padding-top: 0px; padding-right: 0px; padding-bot=
+tom: 0px; padding-left: 0px" nowrap=3D"" valign=3D"top">
+<img width=3D"11" style=3D"width:11px" hspace=3D"0" vspace=3D"0" border=3D"=
+0" alt=3D"" src=3D"cid:YO5UMEH2TZPEVPZIUNNH4LW3FE.93915">
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td width=3D"100%" style=3D"font-size: 14px; line-height: 20px; font-family=
+: Arial, Helvetica, sans-serif !important; padding-top: 0px; padding-right:=
+ 0px; padding-bottom: 2px; padding-left: 10px">
+<table style=3D"width: 100%" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"font-size: 14px; line-height: 20px; font-family: Arial, Helvet=
+ica, sans-serif !important; padding-top: 2px; padding-right: 0px; padding-b=
+ottom: 2px; padding-left: 1px">
+<span style=3D"font-family: Microsoft JhengHei"><span class=3D"max509" styl=
+e=3D"mso-text-raise: 2px; font-size: 14px; line-height: 20px; color: #1b173=
+4; font-family: Arial, Helvetica, sans-serif !important; mso-line-height-ru=
+le: exactly">You can see your IT migrations
+ journeys status via mission control website <a href=3D"https://redirect-yp=
+.siemens-energy.com/redir/7aywscfsu3tb5gbamhfpdqpqsv4zbcxkq74bpp27yer32esft=
+5ia/sj8uWxN11DuTHFkj8smxmpR5ShzKxy_9cwKgcjikk90" target=3D"_blank">
+here</a>, if you need guidance how to travel in it, see <a href=3D"https://=
+redirect-yp.siemens-energy.com/redir/7aywscfsu3tb5gbamhfpdqpqsv4zbcxkq74bpp=
+27yer32esft5ia/R70wE1uvzpAwy7RpuFzQK753IE-e1qnHzCHdr9li4U8" target=3D"_blan=
+k">
+this quick guide</a>.<br>
+</span></span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"float100"><img class=3D"float100" alt=3D"" width=3D"600" heigh=
+t=3D"1" src=3D"cid:FPEYOFXZXVPUNG4C7EK4GLCZVI.93913"></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"contentblock"><!-- Listelement  -->
+<p style=3D"margin:0; font-size:0; line-height:0;"><o:p xmlns:o=3D"urn:sche=
+mas-microsoft-com:office:office">&nbsp;</o:p></p>
+<table class=3D"float100" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%=
+" style=3D"width:100%; background-color:#f8f8f8; background:#f8f8f8" bgcolo=
+r=3D"#f8f8f8">
+<tbody>
+<tr>
+<td class=3D"float100" style=3D"padding-left: 0px; padding-right: 0px; padd=
+ing-bottom: 0px; padding-top: 0px;" align=3D"center">
+<table class=3D"float100" cellspacing=3D"0" cellpadding=3D"0" width=3D"600"=
+ style=3D"width:600px; background-color:#ffffff; background:#ffffff" bgcolo=
+r=3D"#ffffff">
+<tbody>
+<tr>
+<td class=3D"float100td" style=3D"padding-left: 30px; padding-right: 40px; =
+padding-bottom: 0px; padding-top: 0px" align=3D"left">
+<div><!-- Listelement -->
+<table class=3D"float100" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%=
+" style=3D"width:100%">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding-bottom: 1px; padding-top: 0px">
+<table width=3D"100%" style=3D"width:100%" cellspacing=3D"0" cellpadding=3D=
+"0">
+<tbody>
+<tr>
+<td width=3D"11" style=3D"padding-top: 0px; padding-right: 0px; padding-bot=
+tom: 0px; padding-left: 0px" nowrap=3D"" valign=3D"top">
+<table style=3D"width: 11px" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td width=3D"11" style=3D"padding-top: 0px; padding-right: 0px; padding-bot=
+tom: 0px; padding-left: 0px" nowrap=3D"" valign=3D"top">
+<img width=3D"11" style=3D"width:11px" hspace=3D"0" vspace=3D"0" border=3D"=
+0" alt=3D"" src=3D"cid:YO5UMEH2TZPEVPZIUNNH4LW3FE.93915">
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td width=3D"100%" style=3D"font-size: 14px; line-height: 20px; font-family=
+: Arial, Helvetica, sans-serif !important; padding-top: 0px; padding-right:=
+ 0px; padding-bottom: 2px; padding-left: 10px">
+<table style=3D"width: 100%" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"font-size: 14px; line-height: 20px; font-family: Arial, Helvet=
+ica, sans-serif !important; padding-top: 2px; padding-right: 0px; padding-b=
+ottom: 2px; padding-left: 1px">
+<span style=3D"font-family: Microsoft JhengHei"><span class=3D"max509" styl=
+e=3D"mso-text-raise: 2px; font-size: 14px; line-height: 20px; color: #1b173=
+4; font-family: Arial, Helvetica, sans-serif !important; mso-line-height-ru=
+le: exactly">If you need further support,
+ please call:<br>
+- Standard support process via +49 30 520 009 499 <br>
+- Local servicedesk via phone or <a href=3D"https://redirect-yp.siemens-ene=
+rgy.com/redir/7aywscfsu3tb5gbamhfpdqpqsv4zbcxkq74bpp27yer32esft5ia/UCmhB_ss=
+2kWyHMB5z8D_ByE0HfaSvTuky8wtDFtr0oc">
+https://myit.siemens.com</a> </span></span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"float100"><img class=3D"float100" alt=3D"" width=3D"600" heigh=
+t=3D"1" src=3D"cid:FPEYOFXZXVPUNG4C7EK4GLCZVI.93913"></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"contentblock"><!-- Box Modules / Image box module -->
+<p style=3D"margin:0; font-size:0; line-height:0;"><o:p xmlns:o=3D"urn:sche=
+mas-microsoft-com:office:office">&nbsp;</o:p></p>
+<table class=3D"float100" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%=
+" style=3D"width:100%; background-color:#f8f8f8; background:#f8f8f8" bgcolo=
+r=3D"#f8f8f8">
+<tbody>
+<tr>
+<td class=3D"float100" style=3D"padding-left: 0px; padding-right: 0px; padd=
+ing-bottom: 0px; padding-top: 0px;" align=3D"center">
+<table class=3D"float100" cellspacing=3D"0" cellpadding=3D"0" width=3D"600"=
+ style=3D"width:600px; background-color:#ffffff; background:#ffffff" bgcolo=
+r=3D"#ffffff">
+<tbody>
+<tr class=3D"pbb">
+<td class=3D"float100"><img class=3D"float100" alt=3D"" width=3D"600" heigh=
+t=3D"1" src=3D"cid:FPEYOFXZXVPUNG4C7EK4GLCZVI.93913"></td>
+</tr>
+<tr>
+<td class=3D"float100td" style=3D"padding-left: 30px; padding-right: 30px; =
+padding-bottom: 0px; padding-top: 0px;">
+<a href=3D"https://redirect-yp.siemens-energy.com/redir/7aywscfsu3tb5gbamhf=
+pdqpqsv4zbcxkq74bpp27yer32esft5ia/p8UxMNt8uUvJ0FkPm0P8SnCLWzCBK4cOtcRZD_PKr=
+4U" style=3D"color: #ffffff; text-decoration: none"></a><a></a>
+<table class=3D"float100mobile2" style=3D"width: 260px;" cellspacing=3D"0" =
+cellpadding=3D"0" align=3D"left">
+<tbody>
+<tr>
+<td class=3D"float100" height=3D"19" style=3D"height: 19px"><img class=3D"f=
+loat100" alt=3D"" width=3D"260" height=3D"19" src=3D"cid:FPEYOFXZXVPUNG4C7E=
+K4GLCZVI.93913"></td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding-left: 0px; padding-right: 0px; padding-=
+bottom: 0px; padding-top: 0px">
+<table class=3D"float100" style=3D"width: 260px;" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tbody>
+<tr>
+<td><a href=3D"https://redirect-yp.siemens-energy.com/redir/7aywscfsu3tb5gb=
+amhfpdqpqsv4zbcxkq74bpp27yer32esft5ia/AM794uexd2e_o35Wy96mrW-LWoKVc5Z7YoJK9=
+Naqzs0" style=3D"color: #ffffff; text-decoration: none"><img src=3D"https:/=
+/redirect-yp.siemens-energy.com/redir/7aywscfsu3tb5gbamhfpdqpqsv4zbcxkq74bp=
+p27yer32esft5ia/YOWwzYS79GmcC95ZL3CAotB0GpmDSNXPGxHr2O1x48s" width=3D"260" =
+class=3D"hdpi"></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding-left: 20px; padding-right: 20px; paddin=
+g-bottom: 0px; padding-top: 20px; background-color:#f0f0f0; background:#f0f=
+0f0" bgcolor=3D"#f0f0f0" align=3D"left">
+<table class=3D"float100" style=3D"width: 100%" cellspacing=3D"0" cellpaddi=
+ng=3D"0">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding-bottom: 0px; padding-top: 0px">
+<table class=3D"float100" style=3D"width: 100%" cellspacing=3D"0" cellpaddi=
+ng=3D"0">
+<tbody>
+<tr>
+<td style=3D"font-size: 14px; line-height: 20px; font-family: Arial, Helvet=
+ica, sans-serif !important;">
+<span style=3D"font-family: Microsoft JhengHei"><span class=3D"max220" styl=
+e=3D"font-size: 14px; line-height: 20px; color: #1b1734; font-family:  Aria=
+l, Helvetica, sans-serif !important; mso-line-height-rule: exactly"><b>My N=
+ew IT at SE | Wikipage</b>
+</span></span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding-bottom: 8px; padding-top: 0px">
+<table class=3D"float100" style=3D"width: 100%" cellspacing=3D"0" cellpaddi=
+ng=3D"0">
+<tbody>
+<tr>
+<td style=3D"font-size: 14px; line-height: 20px; font-family: Arial, Helvet=
+ica, sans-serif !important;">
+<span style=3D"font-family: Microsoft JhengHei"><span class=3D"max220" styl=
+e=3D"font-size: 14px; line-height: 20px; color: #1b1734; font-family:  Aria=
+l, Helvetica, sans-serif !important; mso-line-height-rule: exactly">Find th=
+e latest and fully updated information
+ regarding IT changes from Siemens to Siemens Energy. </span></span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding-left: 0px; padding-right: 3px; padding-=
+bottom: 19px; padding-top: 6px">
+<table style=3D"width: 11px" cellspacing=3D"0" cellpadding=3D"0" align=3D"r=
+ight">
+<tbody>
+<tr>
+<td><a href=3D"https://redirect-yp.siemens-energy.com/redir/7aywscfsu3tb5gb=
+amhfpdqpqsv4zbcxkq74bpp27yer32esft5ia/C6zAEDVlK3YIroQzJcvXlANOsjP_A-Ot20obH=
+yY5wvc" style=3D"color: #ffffff; text-decoration: none"><img src=3D"cid:UAW=
+YXXHDEW7EBGUB6LJOGOILVM.93916" width=3D"11" hspace=3D"0" vspace=3D"0" borde=
+r=3D"0" alt=3D""></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<a href=3D"https://redirect-yp.siemens-energy.com/redir/7aywscfsu3tb5gbamhf=
+pdqpqsv4zbcxkq74bpp27yer32esft5ia/n3CVXpZpff-0w3EXfwNs0nikwRfMN9GrL8OAiN1ML=
+V8" style=3D"color: #ffffff; text-decoration: none"></a><a></a>
+<table class=3D"float100mobile2" style=3D"width: 260px" cellspacing=3D"0" c=
+ellpadding=3D"0" align=3D"right">
+<tbody>
+<tr>
+<td class=3D"float100" height=3D"19" style=3D"height: 19px"><img class=3D"f=
+loat100" alt=3D"" width=3D"260" height=3D"19" src=3D"cid:FPEYOFXZXVPUNG4C7E=
+K4GLCZVI.93913"></td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding-left: 0px; padding-right: 0px; padding-=
+bottom: 0px; padding-top: 0px">
+<table class=3D"float100" style=3D"width: 260px;" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tbody>
+<tr>
+<td><a href=3D"https://redirect-yp.siemens-energy.com/redir/7aywscfsu3tb5gb=
+amhfpdqpqsv4zbcxkq74bpp27yer32esft5ia/6LYoXKC2zC2Euo7B9jj9FJ5VNN1JmMn_AaSua=
+tyj3pk" style=3D"color: #ffffff; text-decoration: none"><img src=3D"https:/=
+/redirect-yp.siemens-energy.com/redir/7aywscfsu3tb5gbamhfpdqpqsv4zbcxkq74bp=
+p27yer32esft5ia/p7LMeWXD53ig097MgpIoE1k7my3x4VWl5YJIsOY0QV0" width=3D"260" =
+class=3D"hdpi"></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding-left: 20px; padding-right: 20px; paddin=
+g-bottom: 0px; padding-top: 20px; background-color:#f0f0f0; background:#f0f=
+0f0" bgcolor=3D"#f0f0f0" align=3D"left">
+<table class=3D"float100" style=3D"width: 100%" cellspacing=3D"0" cellpaddi=
+ng=3D"0">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding-bottom: 0px; padding-top: 0px">
+<table class=3D"float100" style=3D"width: 100%" cellspacing=3D"0" cellpaddi=
+ng=3D"0">
+<tbody>
+<tr>
+<td style=3D"font-size: 14px; line-height: 20px; font-family: Arial, Helvet=
+ica, sans-serif !important;">
+<span style=3D"font-family: Microsoft JhengHei"><span class=3D"max220" styl=
+e=3D"font-size: 14px; line-height: 20px; color: #1b1734; font-family:  Aria=
+l, Helvetica, sans-serif !important; mso-line-height-rule: exactly"><b>My N=
+ew IT at SE | Yammer Group</b>
+</span></span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding-bottom: 8px; padding-top: 0px">
+<table class=3D"float100" style=3D"width: 100%" cellspacing=3D"0" cellpaddi=
+ng=3D"0">
+<tbody>
+<tr>
+<td style=3D"font-size: 14px; line-height: 20px; font-family: Arial, Helvet=
+ica, sans-serif !important;">
+<span style=3D"font-family: Microsoft JhengHei"><span class=3D"max220" styl=
+e=3D"font-size: 14px; line-height: 20px; color: #1b1734; font-family:  Aria=
+l, Helvetica, sans-serif !important; mso-line-height-rule: exactly">Post yo=
+ur questions regarding your new IT at
+ Siemens Energy here. <br>
+&nbsp; </span></span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding-left: 0px; padding-right: 3px; padding-=
+bottom: 19px; padding-top: 6px">
+<table style=3D"width: 11px" cellspacing=3D"0" cellpadding=3D"0" align=3D"r=
+ight">
+<tbody>
+<tr>
+<td><a href=3D"https://redirect-yp.siemens-energy.com/redir/7aywscfsu3tb5gb=
+amhfpdqpqsv4zbcxkq74bpp27yer32esft5ia/6O06iT0Z8xEQondijlDLfqB3NNlj3oP2komPv=
+5fndh0" style=3D"color: #ffffff; text-decoration: none"><img src=3D"cid:UAW=
+YXXHDEW7EBGUB6LJOGOILVM.93916" width=3D"11" hspace=3D"0" vspace=3D"0" borde=
+r=3D"0" alt=3D""></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"contentblock"><!-- TextmodulTextNoSpace -->
+<p style=3D"margin:0; font-size:0; line-height:0;"><o:p xmlns:o=3D"urn:sche=
+mas-microsoft-com:office:office">&nbsp;</o:p></p>
+<table class=3D"float100" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%=
+" style=3D"width:100%; background-color:#f8f8f8; background:#f8f8f8" bgcolo=
+r=3D"#f8f8f8">
+<tbody>
+<tr>
+<td class=3D"float100" style=3D"padding-left: 0px; padding-right: 0px; padd=
+ing-bottom: 0px; padding-top: 0px;" align=3D"center">
+<table class=3D"float100" cellspacing=3D"0" cellpadding=3D"0" width=3D"600"=
+ style=3D"width:600px; background-color:#ffffff; background:#ffffff" bgcolo=
+r=3D"#ffffff">
+<tbody>
+<tr class=3D"pbb">
+<td class=3D"float100"><img class=3D"float100" alt=3D"" width=3D"600" heigh=
+t=3D"1" src=3D"cid:FPEYOFXZXVPUNG4C7EK4GLCZVI.93913"></td>
+</tr>
+<tr>
+<td class=3D"float100td" style=3D"padding-left: 30px; padding-right: 40px; =
+padding-bottom: 4px; padding-top: 4px;" align=3D"left">
+<table class=3D"float100" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%=
+" style=3D"width:100%">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding-bottom: 0px; padding-top: 0px">
+<table style=3D"width: 100%;" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"font-size: 14px; line-height: 20px; font-family: Arial, Helvet=
+ica, sans-serif !important;">
+<span style=3D"font-family: Microsoft JhengHei"><span class=3D"max530" styl=
+e=3D"font-size: 14px; line-height: 20px; color: #1b1734; font-family:  Aria=
+l, Helvetica, sans-serif !important; mso-line-height-rule: exactly">We than=
+k you in advance for your cooperation.&nbsp;<br>
+<br>
+Warmest regards,&nbsp;<br>
+<b>Your Siemens Energy IT Team</b> </span></span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id=3D"footer1"><!-- Footer / without social media icons - legal text -=
+ unsubscribe link -->
+<p style=3D"margin:0; font-size:0; line-height:0;"><o:p xmlns:o=3D"urn:sche=
+mas-microsoft-com:office:office">&nbsp;</o:p></p>
+<table class=3D"float100" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%=
+" style=3D"width:100%; background-color:#f8f8f8; background:#f8f8f8" bgcolo=
+r=3D"#f8f8f8">
+<tbody>
+<tr>
+<td class=3D"float100" style=3D"padding-left: 0px; padding-right: 0px; padd=
+ing-bottom: 0px; padding-top: 0px;" align=3D"center">
+<table class=3D"float100" cellspacing=3D"0" cellpadding=3D"0" width=3D"600"=
+ style=3D"width:600px; background-color:#1b1734; background:#1b1734" bgcolo=
+r=3D"#1b1734">
+<tbody>
+<tr class=3D"pbb">
+<td class=3D"float100"><img class=3D"float100" alt=3D"" width=3D"600" heigh=
+t=3D"1" src=3D"cid:FPEYOFXZXVPUNG4C7EK4GLCZVI.93913"></td>
+</tr>
+<tr>
+<td class=3D"float100" style=3D"padding-left: 0px; padding-right: 0px; padd=
+ing-bottom: 0px; padding-top: 0px;">
+<table class=3D"float100" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%=
+" style=3D"width:100%" align=3D"left">
+<tbody>
+<tr>
+<td class=3D"fverlauf" bgcolor=3D"#1b1734" valign=3D"top" style=3D"padding-=
+left: 0px; padding-right: 0px; padding-bottom: 0px; padding-top: 0px" align=
+=3D"left">
+<table class=3D"float100" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%=
+" style=3D"width:100%">
+<tbody>
+<tr>
+<td class=3D"fverlaufimg" valign=3D"top" style=3D"padding-left: 0px; paddin=
+g-right: 0px; padding-bottom: 0px; padding-top: 0px">
+<div>
+<div style=3D"line-height: 0px; font-size: 0px">
+<table class=3D"float100" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%=
+" style=3D"width:100%">
+<tbody>
+<tr>
+<td class=3D"float100td" style=3D"padding-left: 30px; padding-right: 70px; =
+padding-bottom: 0px; padding-top: 0px">
+<table class=3D"float100" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%=
+" style=3D"width:100%">
+<tbody>
+<tr>
+<td class=3D"float100" style=3D"padding-left: 0px; padding-right: 0px; padd=
+ing-bottom: 0px; padding-top: 29px;" align=3D"left">
+<table class=3D"float100" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%=
+" style=3D"width:100%">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding-bottom: 20px; padding-top: 0px"><!--[if=
+ gte mso 9]>
+										<table cellspacing=3D"0" cellpadding=3D"0">
+											<tr>
+												<td>
+										<![endif]-->
+<table class=3D"float100" cellspacing=3D"0" cellpadding=3D"0" align=3D"left=
+">
+<tbody>
+<tr>
+<td style=3D"padding-top: 0px; padding-right: 12px; padding-bottom: 0px; pa=
+dding-left: 0px">
+<table class=3D"float100" cellspacing=3D"0" cellpadding=3D"0" align=3D"left=
+">
+<tbody>
+<tr>
+<td class=3D"footerlc" style=3D"font-size: 12px; line-height: 16px; font-fa=
+mily: Arial, Helvetica, sans-serif !important;">
+<span style=3D"font-family: Microsoft JhengHei"><span class=3D"max500" styl=
+e=3D"font-size: 12px; line-height: 16px; color: #ffffff; font-family:  Aria=
+l, Helvetica, sans-serif !important; mso-line-height-rule: exactly"><a href=
+=3D"https://redirect-yp.siemens-energy.com/redir/7aywscfsu3tb5gbamhfpdqpqsv=
+4zbcxkq74bpp27yer32esft5ia/5aHU_D6Xn6AijYIl59T-qG6lgNoQUTMOyWWduxDxuIc" tar=
+get=3D"_blank" style=3D"color:#ffffff; text-decoration: none"><span style=
+=3D"color:#ffffff;"><font color=3D"#ffffff">siemens-energy.com</font></span=
+></a>
+</span></span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if gte mso 9]>
+											</td><td>
+										<![endif]-->
+<table class=3D"float100" cellspacing=3D"0" cellpadding=3D"0" align=3D"left=
+">
+<tbody>
+<tr>
+<td style=3D"padding-top: 0px; padding-right: 0px; padding-bottom: 0px; pad=
+ding-left: 0px">
+<table class=3D"float100" cellspacing=3D"0" cellpadding=3D"0" align=3D"left=
+">
+<tbody>
+<tr>
+<td style=3D"font-size: 12px; line-height: 16px; font-family: Arial, Helvet=
+ica, sans-serif !important;">
+<span style=3D"font-family: Microsoft JhengHei"><span style=3D"font-size: 1=
+2px; line-height: 16px; color: #ADA9C2; font-family:  Arial, Helvetica, san=
+s-serif !important; mso-line-height-rule: exactly">Restricted =A9 Siemens E=
+nergy, 2021
+</span></span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if gte mso 9]>
+												</td>
+											</tr>
+										</table>
+										<![endif]--></td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding-bottom: 14px; padding-top: 20px">
+<table class=3D"float100" style=3D"width: 100%" cellspacing=3D"0" cellpaddi=
+ng=3D"0">
+<tbody>
+<tr>
+<td class=3D"footerlc" style=3D"font-size: 11px; line-height: 15px; font-fa=
+mily: Arial, Helvetica, sans-serif !important;">
+<span style=3D"font-family: Microsoft JhengHei"><span class=3D"max500" styl=
+e=3D"font-size: 11px; line-height: 15px; color: #ffffff; font-family: Arial=
+, Helvetica, sans-serif !important; mso-line-height-rule: exactly">This mai=
+l was sent to
+<a href=3D"mailto:ana.silva.ext@siemens.com"><span style=3D"color:#ffffff;"=
+><font color=3D"#ffffff">ana.silva.ext@siemens.com</font></span></a> (4fv5l=
+tqb7aaloiexol2bfhma7oxqlbb6qaupmb25qm76mg7hcq5q).
+</span></span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div>
+<p style=3D"margin:0; font-size:0; line-height:0;"><o:p xmlns:o=3D"urn:sche=
+mas-microsoft-com:office:office">&nbsp;</o:p></p>
+<table class=3D"float100" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%=
+" style=3D"width:100%; background:#f8f8f8; background-color:#f8f8f8" bgcolo=
+r=3D"#f8f8f8">
+<tbody>
+<tr>
+<td class=3D"float100" align=3D"center">
+<table class=3D"float100" cellspacing=3D"0" cellpadding=3D"0" width=3D"600"=
+ style=3D"width:600px; background:#1b1734; background-color:#1b1734" bgcolo=
+r=3D"#1b1734">
+<!-- Ende -->
+<tbody>
+<tr class=3D"pbb">
+<td class=3D"float100" style=3D"background:#1b1734; background-color:#1b173=
+4;" bgcolor=3D"#1b1734">
+<img class=3D"float100" alt=3D"" width=3D"600" height=3D"1" src=3D"cid:FPEY=
+OFXZXVPUNG4C7EK4GLCZVI.93913"></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--[if gte mso 15]>
+</td>
+</tr></table>
+	</td>
+</tr></table>
+</div>
+<![endif]-->
+</body>
+</html>
+
+--_000_4fv5ltqb7aaloiexol2bfhma7oxqlbb6qaupmb25qm76mg7hcq5qsie_--
+
+--_007_4fv5ltqb7aaloiexol2bfhma7oxqlbb6qaupmb25qm76mg7hcq5qsie_
+Content-Type: image/gif; name="icon_li.gif"
+Content-Description: icon_li.gif
+Content-Disposition: inline; filename="icon_li.gif"; size=208;
+	creation-date="Sat, 06 Feb 2021 12:30:42 GMT";
+	modification-date="Sat, 06 Feb 2021 12:30:42 GMT"
+Content-ID: <YO5UMEH2TZPEVPZIUNNH4LW3FE.93915>
+Content-Transfer-Encoding: base64
+
+R0lGODlhFgAoAMQaACMfO5COnN7e4SAcOYaEk9HQ1SUiPR4aNnNxgl9ccNnY3NbW2ldUaXZ0hbKx
+uoB+jqWjrsHAyMzL0aKhrG5sfmxpe5WToCgkQH58jBsXNPj4+AAAAAAAAAAAAAAAAAAAACH5BAEA
+ABoALAAAAAAWACgAAAVNoCaOZGmeaKqubOu+cCzPdG3feK7vfB9LmMSjAAscMsjBxBVBOjMARYvy
+dBJajCqy0mpoM1dWYVC9CFwQgNPggC0CCMvZR6/b7/j8KwQAOw==
+
+--_007_4fv5ltqb7aaloiexol2bfhma7oxqlbb6qaupmb25qm76mg7hcq5qsie_
+Content-Type: image/gif; name="siemens_energy.gif"
+Content-Description: siemens_energy.gif
+Content-Disposition: inline; filename="siemens_energy.gif"; size=3308;
+	creation-date="Sat, 06 Feb 2021 12:30:42 GMT";
+	modification-date="Sat, 06 Feb 2021 12:30:42 GMT"
+Content-ID: <QMXD6T3L57HENADAX6O6WAXH3A.93914>
+Content-Transfer-Encoding: base64
+
+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
+ADs=
+
+--_007_4fv5ltqb7aaloiexol2bfhma7oxqlbb6qaupmb25qm76mg7hcq5qsie_
+Content-Type: image/gif; name="c_trans.gif"
+Content-Description: c_trans.gif
+Content-Disposition: inline; filename="c_trans.gif"; size=64;
+	creation-date="Sat, 06 Feb 2021 12:30:42 GMT";
+	modification-date="Sat, 06 Feb 2021 12:30:42 GMT"
+Content-ID: <FPEYOFXZXVPUNG4C7EK4GLCZVI.93913>
+Content-Transfer-Encoding: base64
+
+R0lGODlhWAIBAIAAAOPm6QAAACH5BAEAAAAALAAAAABYAgEAAAIXhI+py+0Po5y02ouz3rz7D4bi
+SJZmUgAAOw==
+
+--_007_4fv5ltqb7aaloiexol2bfhma7oxqlbb6qaupmb25qm76mg7hcq5qsie_
+Content-Type: image/gif; name="pfeil_15_02.gif"
+Content-Description: pfeil_15_02.gif
+Content-Disposition: inline; filename="pfeil_15_02.gif"; size=378;
+	creation-date="Sat, 06 Feb 2021 12:30:42 GMT";
+	modification-date="Sat, 06 Feb 2021 12:30:42 GMT"
+Content-ID: <UAWYXXHDEW7EBGUB6LJOGOILVM.93916>
+Content-Transfer-Encoding: base64
+
+R0lGODlhFgAoANUyAOze9o0G5e/k9osD5ZYa58eJ8PLp95MU5/Dm9/Xy+OjV9ebP9Zwp6MJ976hD
+6vf1+Nq187FY7MSD75gg55cd58yV8NSm8tiv8s+b8aU96qQ66apJ6+HD9OLG9MuS8Ldm7a1P648M
+5sB77pAP5vTv99Kj8vPs944J5tGg8b517r947psm6N6+9KAy6eXM9aE16axM64oA5fj4+AAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAADIALAAAAAAWACgAAAaXQJlw
+SCwaj8ikcslsOp/QqHRKrVqhC9VUQYiJooJuLFaAJjTjMQYKOKQHFihkkA5AoI107MR5Phx6Iy5P
+YXoHCk8sAXoUAE8FejErAk8gkS0GTgZueg5OJZEBF00LIXoDKE0mDJEVThGREk4ekSlOHYtpH04I
+E3oRD04bejAJThJ6GSROAHRjL5mPYwyUUQ0TjlMIV9xMQQA7
+
+--_007_4fv5ltqb7aaloiexol2bfhma7oxqlbb6qaupmb25qm76mg7hcq5qsie_--
